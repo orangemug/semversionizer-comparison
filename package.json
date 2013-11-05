@@ -1,0 +1,17 @@
+{
+  "name": "semversionizer-comparison",
+  "description": "A semver comparison library",
+  "version": "0.1.0",
+  "dependencies": {
+    "semverionizer-parser": "git://bitbucket.org/orangemug/semversionizer-parser.git"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "benchmark": "*"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/spec.js",
+    "perf": "node test/perf.js"
+  }
+}
