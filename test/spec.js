@@ -7,7 +7,7 @@ describe('Semver', function() {
 	describe('#compare()', function() {
 		spec.compare.forEach(function(suite) {
 			suite.data.forEach(function(spec) {
-				it(spec.data[0]+"<"+spec.data[1], function() {
+				it(spec.data.v1+"<"+spec.data.v2, function() {
 					compare(spec.data.v1, spec.data.v2).should.eql(spec.result);
 				});
 			});
