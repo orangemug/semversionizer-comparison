@@ -32,10 +32,10 @@ function compareVals(oa, ob, limit) {
   }
 }
 
-module.exports = function(oa,ob) {
+module.exports = function(oa,ob,loose) {
   var comp;
-  var a = parse(oa);
-  var b = parse(ob);
+  var a = parse(oa,loose);
+  var b = parse(ob,loose);
 
   comp  = compareVal(a.major, b.major, 10000);
   comp += compareVal(a.minor, b.minor, 1000);
