@@ -44,7 +44,7 @@ module.exports = function(oa,ob,loose) {
   // Version without prerelease should always take precidence
   if(a.prerelease.length < 1 && b.prerelease.length > 0) {
     comp += 10
-  } else if(a.prerelease.length < 1 && b.prerelease.length > 0) {
+  } else if(b.prerelease.length < 1 && a.prerelease.length > 0) {
     comp -= 10
   } else {
     comp += compareVals(a.prerelease, b.prerelease, 10);
