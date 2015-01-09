@@ -1,7 +1,7 @@
 {
   "name": "semversionizer-comparison",
   "description": "A semver comparison library",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "dependencies": {
     "semverionizer-parser": "git://github.com/orangemug/semversionizer-parser.git#v0.2.0"
   },
