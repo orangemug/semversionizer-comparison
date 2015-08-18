@@ -3,7 +3,7 @@
   "description": "A semver comparison library",
   "version": "0.2.0",
   "dependencies": {
-    "semverionizer-parser": "git://github.com/orangemug/semversionizer-parser.git#v0.2.0"
+    "semversionizer-parser": "git://github.com/orangemug/semversionizer-parser.git#v0.2.0"
   },
   "devDependencies": {
     "mocha": "*",
